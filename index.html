@@ -1,0 +1,1397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Webpage</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-K2y/Z1AESLm0Fk3B4n8+aU7kKwXz30G0vaTXW5dYoFI=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+  <div class="navbar">
+    <img src="images/design_task.png" alt="logo">
+    <div class="search-box">
+      <input type="text" name="search" placeholder="Search.." />
+      <a href="#"><img src="images/magnifying-glass.png" class="search-icon"></a>
+      <a href="#" class="wishlist-link"><img src="images/heart.png" class="heart-icon"><b>Wishlist</b></a>
+      <a href="#" class="wishlist-link"><img src="images/bag.png" class="cart-icon"><b>YourCart</b></a>
+      <div class="dropdown">
+        <a href="#" class="wishlist-link"><img src="images/user.png" class="user-icon"><b>Account</b></a>
+        <div class="dropdown-content">
+          <option value="Account">Account</option>
+          <option value="abc">abc</option>
+          <option value="xyz">xyz</option>
+        </div>
+      </div>
+      <a href="#" class="wishlist-link"><img src="images/down-arrow.png" class="down-icon"></a>
+    </div>
+  </div>
+
+  <div class="navbar2">
+    <a href="#" id="c1" class="position" style="color:rgb(247, 193, 43)">Home</a>
+    <a href="#Shop" id="c1" class="position">Shop</a>
+    <a href="#Contact" id="c1" class="position">ContactUs</a>
+    <div class="dropdown" style="width:100%;">
+      <a href="#" data-bs-toggle="dropdown" aria-expanded="false"
+        style="color:white; margin-left:10px; text-decoration: none;font-size: 15px;font-weight:bold;">Fitness</a>
+      <ul class="dropdown-menu">
+        <div class="row">
+          <div class="col" style="margin-left:60px">
+            <li><a class="dropdown-item" href="#">COMPUTERS & DEVICES</a></li>
+            <hr>
+            <li><a class="dropdown-item" href="#" style="color:rgb(247, 193, 43)">Laptos</a></li>
+            <li><a class="dropdown-item" href="#" style="color:rgb(247, 193, 43)">Desktop Computers</a></li>
+            <li><a class="dropdown-item" href="#" style="color:rgb(247, 193, 43)">Components</a></li>
+            <li><a class="dropdown-item" href="#" style="color:rgb(247, 193, 43)">Tablets</a></li>
+            <li><a class="dropdown-item" href="#" style="color:rgb(247, 193, 43)">Smart phones</a></li>
+            <li><a class="dropdown-item" href="#" style="color:rgb(247, 193, 43)">iphone</a></li>
+          </div>
+          <div class="col" style="margin-left:70px">
+            <li><a class="dropdown-item" href="#">MONITORS</a></li>
+            <hr>
+            <li><a class="dropdown-item" href="#" style="color:rgb(247, 193, 43)">Televisions</a></li>
+            <li><a class="dropdown-item" href="#" style="color:rgb(247, 193, 43)">Office screens</a></li>
+            <li><a class="dropdown-item" href="#" style="color:rgb(247, 193, 43)">Projectors</a></li>
+          </div>
+          <div class="col" style="margin-left:70px">
+            <li><a class="dropdown-item" href="#">ELECTRONICS</a></li>
+            <hr>
+            <li><a class="dropdown-item" href="#" style="color:rgb(247, 193, 43)">Camera</a></li>
+            <li><a class="dropdown-item" href="#" style="color:rgb(247, 193, 43)">GPS & navigation</a></li>
+            <li><a class="dropdown-item" href="#" style="color:rgb(247, 193, 43)">Accessories</a></li>
+            <li><a class="dropdown-item" href="#" style="color:rgb(247, 193, 43)">Home audio</a></li>
+            <li><a class="dropdown-item" href="#" style="color:rgb(247, 193, 43)">Office audio</a></li>
+          </div>
+          <div class="col" style="margin-left:70px">
+            <li><a class="dropdown-item" href="#">PROMOTIONS</a></li>
+            <hr>
+            <li><a class="dropdown-item" href="#" style="color:rgb(247, 193, 43)">Computers</a></li>
+            <li><a class="dropdown-item" href="#" style="color:rgb(247, 193, 43)">Electronics</a></li>
+            <li><a class="dropdown-item" href="#" style="color:rgb(247, 193, 43)">Monitors</a></li>
+            <li><a class="dropdown-item" href="#" style="color:rgb(247, 193, 43)">Networks</a></li>
+          </div>
+        </div>
+
+      </ul>
+    </div>
+  </div>
+
+  <div class="main">
+    <img src="images/vector.jpg">
+    <div id="overlay-text">New Collection</div>
+    <div id="overlay-text2">Shop now</div>
+  </div>
+  <div class="content1">
+    <h3 align="center">Welcome To Inventive</h3>
+    <p align="center">In the crucible of high school, during the pivotal 10th and 12th grades,
+      I cultivated a passion for the sciences and mathematics that laid the foundat
+      for my pursuit of a career in engineering where the allure
+      of technology and its transformative power first captured my imagination.In the crucible of high school, during
+      the pivotal 10th and 12th grades,
+      I cultivated a passion for the sciences and mathematics that laid the foundat
+      for my pursuit of a career in engineering where the allure
+      of technology and its transformative power first captured my imagination. </p>
+
+  </div>
+
+
+  <div class="content2">
+    <h1 align="center">Best Collections</h1>
+    <div class="images">
+      <div class="img1">
+        <img src="images/man.jpg">
+        <div class="overlay-text">
+          <p>SPORTS</p>
+        </div>
+      </div>
+      <div class="img2">
+        <img src="images/bagpack.jpg">
+        <div class="overlay-text">
+          <p>SPORTS</p>
+        </div>
+      </div>
+      <div class="img3">
+        <img src="images/watch.jpg">
+        <div class="overlay-text">
+          <p>SPORTS</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card text-bg-dark">
+    <img src="images/sporty-woman-meditating-fresh-air.jpg" style="height:300px; filter: brightness(50%);"
+      class="card-img" alt="...">
+    <div class="card-img-overlay">
+      <h5 class="card-title" style="font-size: 35px;">Inventive</h5>
+      <p class="card-text" style="font-size: 20px;">I cultivated a passion for the sciences and mathematics that laid
+        the foundat<br>
+        for my pursuit of a career in engineering where the allure
+        of technology and its transformative power first captured my imagination.</p>
+      <p class="card-text" style=" width:140px; font-size:20px;background-color:rgb(247, 193, 43);color:white;">Discover
+        More</p>
+    </div>
+  </div>
+
+  <div class="container" style="margin-top:100px;" id="Shop">
+    <div class="position-relative">
+      <div class="position-absolute top-0 start-0">
+        <p class="text-start" style="font-size: 25px; margin-top: -20px;">New Products</p>
+      </div>
+      <div class="position-absolute top-0 start-50 ">
+        <p class="text-start" style="font-size: 25px; margin-top: -20px; margin-left:-175px">New products</p>
+      </div>
+      <div class="position-absolute top-0 start-50">
+        <p class="text-start" style="font-size: 25px; margin-top: -20px; margin-left:200px">New Products</p>
+      </div>
+    </div>
+
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col" style=" border:1px solid #ccc; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="card" style="border:transparent">
+                <div class="card mb-3" style="max-width: 540px; border:transparent">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="images/watch.jpg" style=" width:100% ;height:100%" class="img-fluid rounded-start"
+                        alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title" style="color:rgb(247, 193, 43);">Badminton</h5>
+
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span id="star" style="color: #ccc;">★</span>
+                        <span id="star" style="color: #ccc;">★</span>
+
+                        <p class="card-text"><small class="text-body-secondary"
+                            style="color:purple !important">$560.0</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card" style="border:transparent">
+                <div class="card mb-3" style="max-width: 540px;  border:transparent">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="images/watch.jpg" style=" width:100% ;height:100%" class="img-fluid rounded-start"
+                        alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title" style=" color:rgb(247, 193, 43);">Badminton</h5>
+
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span id="star" style="color: #ccc;">★</span>
+                        <span id="star" style="color: #ccc;">★</span>
+
+                        <p class="card-text"><small class="text-body-secondary"
+                            style="color:purple !important">$560.0</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card" style="border:transparent">
+                <div class="card mb-3" style="max-width: 540px; border:transparent">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="images/watch.jpg" style=" width:100% ;height:100%" class="img-fluid rounded-start"
+                        alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title" style="color:rgb(247, 193, 43);">Badminton</h5>
+
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span id="star" style="color: #ccc;">★</span>
+                        <span id="star" style="color: #ccc;">★</span>
+
+                        <p class="card-text"><small class="text-body-secondary"
+                            style="color:purple !important">$560.0</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card" style="border:transparent">
+                <div class="card mb-3" style="max-width: 540px; border:transparent">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="images/watch.jpg" style=" width:100% ;height:100%" class="img-fluid rounded-start"
+                        alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title" style="color:rgb(247, 193, 43);">Badminton</h5>
+
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span id="star" style="color: #ccc;">★</span>
+                        <span id="star" style="color: #ccc;">★</span>
+
+                        <p class="card-text"><small class="text-body-secondary"
+                            style="color:purple !important">$560.0</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card" style="border:transparent">
+                <div class="card mb-3" style="max-width: 540px;  border:transparent">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="images/watch.jpg" style=" width:100% ;height:100%" class="img-fluid rounded-start"
+                        alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title" style=" color:rgb(247, 193, 43);">Badminton</h5>
+
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span id="star" style="color: #ccc;">★</span>
+                        <span id="star" style="color: #ccc;">★</span>
+
+                        <p class="card-text"><small class="text-body-secondary"
+                            style="color:purple !important">$560.0</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card" style="border:transparent">
+                <div class="card mb-3" style="max-width: 540px; border:transparent">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="images/watch.jpg" style=" width:100% ;height:100%" class="img-fluid rounded-start"
+                        alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title" style="color:rgb(247, 193, 43);">Badminton</h5>
+
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span id="star" style="color: #ccc;">★</span>
+                        <span id="star" style="color: #ccc;">★</span>
+
+                        <p class="card-text"><small class="text-body-secondary"
+                            style="color:purple !important">$560.0</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card" style="border:transparent">
+                <div class="card mb-3" style="max-width: 540px; border:transparent">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="images/watch.jpg" style=" width:100% ;height:100%" class="img-fluid rounded-start"
+                        alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title" style="color:rgb(247, 193, 43);">Badminton</h5>
+
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span id="star" style="color: #ccc;">★</span>
+                        <span id="star" style="color: #ccc;">★</span>
+
+                        <p class="card-text"><small class="text-body-secondary"
+                            style="color:purple !important">$560.0</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card" style="border:transparent">
+                <div class="card mb-3" style="max-width: 540px;  border:transparent">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="images/watch.jpg" style=" width:100% ;height:100%" class="img-fluid rounded-start"
+                        alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title" style=" color:rgb(247, 193, 43);">Badminton</h5>
+
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span id="star" style="color: #ccc;">★</span>
+                        <span id="star" style="color: #ccc;">★</span>
+
+                        <p class="card-text"><small class="text-body-secondary"
+                            style="color:purple !important">$560.0</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card" style="border:transparent">
+                <div class="card mb-3" style="max-width: 540px; border:transparent">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="images/watch.jpg" style=" width:100% ;height:100%" class="img-fluid rounded-start"
+                        alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title" style="color:rgb(247, 193, 43);">Badminton</h5>
+
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span id="star" style="color: #ccc;">★</span>
+                        <span id="star" style="color: #ccc;">★</span>
+
+                        <p class="card-text"><small class="text-body-secondary"
+                            style="color:purple !important">$560.0</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev"
+            style="
+          position: absolute;
+          top:-3%;
+          left:90%;
+          transform: translateY(-100%);
+           background-color:black; 
+           color: white;
+          padding: 10px;
+          border: none;
+          cursor: pointer;
+        ">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span><i class='fa fa-angle-left'></i></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next"
+            style="position: absolute;
+        left:95%;
+        top:-3%;
+        transform: translateY(-100%);
+        background-color: black;
+        color: white;
+        padding: 10px;
+        border: none;
+        cursor: pointer;">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span><i class='fa fa-angle-right'></i></span>
+          </button>
+        </div>
+      </div>
+      <div class="col" style=" border:1px solid #ccc; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <div id="carouselExample2" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="card" style="border:transparent">
+                <div class="card mb-3" style="max-width: 540px; border:transparent">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="images/watch.jpg" style=" width:100% ;height:100%" class="img-fluid rounded-start"
+                        alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title" style="color:rgb(247, 193, 43);">Badminton</h5>
+
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span id="star" style="color: #ccc;">★</span>
+                        <span id="star" style="color: #ccc;">★</span>
+
+                        <p class="card-text"><small class="text-body-secondary"
+                            style="color:purple !important">$560.0</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card" style="border:transparent">
+                <div class="card mb-3" style="max-width: 540px;  border:transparent">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="images/watch.jpg" style=" width:100% ;height:100%" class="img-fluid rounded-start"
+                        alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title" style=" color:rgb(247, 193, 43);">Badminton</h5>
+
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span id="star" style="color: #ccc;">★</span>
+                        <span id="star" style="color: #ccc;">★</span>
+
+                        <p class="card-text"><small class="text-body-secondary"
+                            style="color:purple !important">$560.0</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card" style="border:transparent">
+                <div class="card mb-3" style="max-width: 540px; border:transparent">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="images/watch.jpg" style=" width:100% ;height:100%" class="img-fluid rounded-start"
+                        alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title" style="color:rgb(247, 193, 43);">Badminton</h5>
+
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span id="star" style="color: #ccc;">★</span>
+                        <span id="star" style="color: #ccc;">★</span>
+
+                        <p class="card-text"><small class="text-body-secondary"
+                            style="color:purple !important">$560.0</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card" style="border:transparent">
+                <div class="card mb-3" style="max-width: 540px; border:transparent">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="images/watch.jpg" style=" width:100% ;height:100%" class="img-fluid rounded-start"
+                        alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title" style="color:rgb(247, 193, 43);">Badminton</h5>
+
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span id="star" style="color: #ccc;">★</span>
+                        <span id="star" style="color: #ccc;">★</span>
+
+                        <p class="card-text"><small class="text-body-secondary"
+                            style="color:purple !important">$560.0</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card" style="border:transparent">
+                <div class="card mb-3" style="max-width: 540px;  border:transparent">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="images/watch.jpg" style=" width:100% ;height:100%" class="img-fluid rounded-start"
+                        alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title" style=" color:rgb(247, 193, 43);">Badminton</h5>
+
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span id="star" style="color: #ccc;">★</span>
+                        <span id="star" style="color: #ccc;">★</span>
+
+                        <p class="card-text"><small class="text-body-secondary"
+                            style="color:purple !important">$560.0</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card" style="border:transparent">
+                <div class="card mb-3" style="max-width: 540px; border:transparent">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="images/watch.jpg" style=" width:100% ;height:100%" class="img-fluid rounded-start"
+                        alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title" style="color:rgb(247, 193, 43);">Badminton</h5>
+
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span id="star" style="color: #ccc;">★</span>
+                        <span id="star" style="color: #ccc;">★</span>
+
+                        <p class="card-text"><small class="text-body-secondary"
+                            style="color:purple !important">$560.0</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card" style="border:transparent">
+                <div class="card mb-3" style="max-width: 540px; border:transparent">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="images/watch.jpg" style=" width:100% ;height:100%" class="img-fluid rounded-start"
+                        alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title" style="color:rgb(247, 193, 43);">Badminton</h5>
+
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span id="star" style="color: #ccc;">★</span>
+                        <span id="star" style="color: #ccc;">★</span>
+
+                        <p class="card-text"><small class="text-body-secondary"
+                            style="color:purple !important">$560.0</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card" style="border:transparent">
+                <div class="card mb-3" style="max-width: 540px;  border:transparent">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="images/watch.jpg" style=" width:100% ;height:100%" class="img-fluid rounded-start"
+                        alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title" style=" color:rgb(247, 193, 43);">Badminton</h5>
+
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span id="star" style="color: #ccc;">★</span>
+                        <span id="star" style="color: #ccc;">★</span>
+
+                        <p class="card-text"><small class="text-body-secondary"
+                            style="color:purple !important">$560.0</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card" style="border:transparent">
+                <div class="card mb-3" style="max-width: 540px; border:transparent">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="images/watch.jpg" style=" width:100% ;height:100%" class="img-fluid rounded-start"
+                        alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title" style="color:rgb(247, 193, 43);">Badminton</h5>
+
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span id="star" style="color: #ccc;">★</span>
+                        <span id="star" style="color: #ccc;">★</span>
+
+                        <p class="card-text"><small class="text-body-secondary"
+                            style="color:purple !important">$560.0</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev"
+            style=" position: absolute;
+        top:-3%;
+        left:90%;
+        transform: translateY(-100%);
+         background-color:black; 
+         color: white;
+        padding: 10px;
+        border: none;
+        cursor: pointer;">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span><i class='fa fa-angle-left'></i></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2" data-bs-slide="next"
+            style="left:95%;
+        top:-3%;
+        transform: translateY(-100%);
+        background-color: black;
+        color: white;
+        padding: 10px;
+        border: none;
+        cursor: pointer;">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span><i class='fa fa-angle-right'></i></span>
+          </button>
+        </div>
+      </div>
+      <div class="col" style=" border:1px solid #ccc; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <div id="carouselExample3" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="card" style="border:transparent;">
+                <div class="card mb-3" style="max-width: 540px; border:transparent;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="images/watch.jpg" style=" width:100% ;height:100%" class="img-fluid rounded-start"
+                        alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title" style="color:rgb(247, 193, 43);">Badminton</h5>
+
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span id="star" style="color: #ccc;">★</span>
+                        <span id="star" style="color: #ccc;">★</span>
+
+                        <p class="card-text"><small class="text-body-secondary"
+                            style="color:purple !important">$560.0</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card" style="border:transparent">
+                <div class="card mb-3" style="max-width: 540px;  border:transparent">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="images/watch.jpg" style=" width:100% ;height:100%" class="img-fluid rounded-start"
+                        alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title" style=" color:rgb(247, 193, 43);">Badminton</h5>
+
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span id="star" style="color: #ccc;">★</span>
+                        <span id="star" style="color: #ccc;">★</span>
+
+                        <p class="card-text"><small class="text-body-secondary"
+                            style="color:purple !important">$560.0</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card" style="border:transparent">
+                <div class="card mb-3" style="max-width: 540px; border:transparent">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="images/watch.jpg" style=" width:100% ;height:100%" class="img-fluid rounded-start"
+                        alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title" style="color:rgb(247, 193, 43);">Badminton</h5>
+
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span id="star" style="color: #ccc;">★</span>
+                        <span id="star" style="color: #ccc;">★</span>
+
+                        <p class="card-text"><small class="text-body-secondary"
+                            style="color:purple !important">$560.0</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card" style="border:transparent">
+                <div class="card mb-3" style="max-width: 540px; border:transparent">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="images/watch.jpg" style=" width:100% ;height:100%" class="img-fluid rounded-start"
+                        alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title" style="color:rgb(247, 193, 43);">Badminton</h5>
+
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span id="star" style="color: #ccc;">★</span>
+                        <span id="star" style="color: #ccc;">★</span>
+
+                        <p class="card-text"><small class="text-body-secondary"
+                            style="color:purple !important">$560.0</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card" style="border:transparent">
+                <div class="card mb-3" style="max-width: 540px;  border:transparent">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="images/watch.jpg" style=" width:100% ;height:100%" class="img-fluid rounded-start"
+                        alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title" style=" color:rgb(247, 193, 43);">Badminton</h5>
+
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span id="star" style="color: #ccc;">★</span>
+                        <span id="star" style="color: #ccc;">★</span>
+
+                        <p class="card-text"><small class="text-body-secondary"
+                            style="color:purple !important">$560.0</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card" style="border:transparent">
+                <div class="card mb-3" style="max-width: 540px; border:transparent">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="images/watch.jpg" style=" width:100% ;height:100%" class="img-fluid rounded-start"
+                        alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title" style="color:rgb(247, 193, 43);">Badminton</h5>
+
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span id="star" style="color: #ccc;">★</span>
+                        <span id="star" style="color: #ccc;">★</span>
+
+                        <p class="card-text"><small class="text-body-secondary"
+                            style="color:purple !important">$560.0</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card" style="border:transparent">
+                <div class="card mb-3" style="max-width: 540px; border:transparent">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="images/watch.jpg" style=" width:100% ;height:100%" class="img-fluid rounded-start"
+                        alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title" style="color:rgb(247, 193, 43);">Badminton</h5>
+
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span id="star" style="color: #ccc;">★</span>
+                        <span id="star" style="color: #ccc;">★</span>
+
+                        <p class="card-text"><small class="text-body-secondary"
+                            style="color:purple !important">$560.0</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card" style="border:transparent">
+                <div class="card mb-3" style="max-width: 540px;  border:transparent">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="images/watch.jpg" style=" width:100% ;height:100%" class="img-fluid rounded-start"
+                        alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title" style=" color:rgb(247, 193, 43);">Badminton</h5>
+
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span id="star" style="color: #ccc;">★</span>
+                        <span id="star" style="color: #ccc;">★</span>
+
+                        <p class="card-text"><small class="text-body-secondary"
+                            style="color:purple !important">$560.0</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card" style="border:transparent">
+                <div class="card mb-3" style="max-width: 540px; border:transparent">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="images/watch.jpg" style=" width:100% ;height:100%" class="img-fluid rounded-start"
+                        alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title" style="color:rgb(247, 193, 43);">Badminton</h5>
+
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                        <span id="star" style="color: #ccc;">★</span>
+                        <span id="star" style="color: #ccc;">★</span>
+
+                        <p class="card-text"><small class="text-body-secondary"
+                            style="color:purple !important">$560.0</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample3" data-bs-slide="prev"
+            style="position: absolute;
+        top:-3%;
+        left:90%;
+        transform: translateY(-100%);
+        background-color:black; 
+        color: white;
+        padding: 10px;
+        border: none;
+        cursor: pointer;">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span><i class='fa fa-angle-left'></i></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample3" data-bs-slide="next"
+            style="top:-3%;
+        transform: translateY(-100%);
+        background-color: black;
+        color: white;
+        padding: 10px;
+        border: none;
+        cursor: pointer;">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span><i class='fa fa-angle-right'></i></span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="container">
+    <div class="row " style="margin-top:30px">
+      <div class="col" style="padding:0">
+        <img src="images/black-friday-sales-elements-assortment-with-copy-space.jpg" style="width:100%;height:100%;"
+          class="card-img-top" alt="...">
+        <p class="text-end"
+          style="margin-top:-90px; margin-right:190px; color:white; font-weight: bolder; font-size:30px;">BestSellers
+        </p>
+        <p class="text-end" style=" margin-top:-20px; margin-right:250px; color:white;font-size: 15px; ">Shop Now</p>
+
+      </div>
+      <div class="col" style="padding:0">
+        <img src="images/fitness2.jpg" style="width:100%; height:100%" class="card-img-top" alt="...">
+        <p class="text-end"
+          style="margin-top:-90px; margin-right:50px; color:white; font-weight: bolder; font-size:40px;">Apparel</p>
+        <p class="text-end" style=" margin-top:-20px; margin-right:80px; color:white;font-size: 15px; ">Shop Now</p>
+      </div>
+      <div class="col" style="padding:0">
+        <img src="images/fitness3.jpg" style="width:100%; height:100%; " class="card-img-top" alt="...">
+        <p class="text-end"
+          style="margin-top:-90px; margin-right:50px; color:white; font-weight: bolder; font-size:40px;">Gear</p>
+        <p class="text-end" style=" margin-top:-20px; margin-right:60px; color:white;font-size: 15px; ">Shop Now</p>
+      </div>
+    </div>
+
+
+
+  </div>
+
+  <div class="container" style="margin-top:30px">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="images/man.jpg" style="border-radius:0;" class="card-img-top" alt="...">
+          <p class="text-xxl-end"
+            style="margin-top:-90px; margin-left:15px; color:white; font-weight: bolder; font-size:15px;">Bags & Jackets
+          </p>
+          <p class="text-xxl-end" style="margin-top:-20px; margin-left:15px; color:rgba(255,255,255,0.7); ">Complete the
+            looks with classic bags</p>
+          <p class="text-xxl-end"
+            style="margin-top:-5px; margin-left:15px; text-decoration: underline; color:white; font-size:12px;">Shop
+            Accessories</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="images/bagpack.jpg" style="border-radius:0;" class="card-img-top" alt="...">
+          <p class="text-xxl-end"
+            style="margin-top:-90px; margin-left:15px; color:white; font-weight: bolder; font-size:15px;">Bags & Jackets
+          </p>
+          <p class="text-xxl-end" style="margin-top:-20px; margin-left:15px; color:rgba(255,255,255,0.7); ">Complete the
+            looks with classic bags</p>
+          <p class="text-xxl-end"
+            style="margin-top:-5px; margin-left:15px; text-decoration: underline; color:white; font-size:12px;">Shop
+            Accessories</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="images/man.jpg" style="border-radius:0;" class="card-img-top" alt="...">
+          <p class="text-xxl-end"
+            style="margin-top:-90px; margin-left:15px; color:white; font-weight: bolder; font-size:15px;">Bags & Jackets
+          </p>
+          <p class="text-xxl-end" style="margin-top:-20px; margin-left:15px; color:rgba(255,255,255,0.7); ">Complete the
+            looks with classic bags</p>
+          <p class="text-xxl-end"
+            style="margin-top:-5px; margin-left:15px; text-decoration: underline; color:white; font-size:12px;">Shop
+            Accessories</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" style="margin-top: 80px; border: #ccc; background-color: rgba(0,0,0,0.1);">
+    <p class="text-center" style="font-size: 15px; font-weight: bold; margin-bottom: 0;">Products</p>
+    <ul class="list-inline" style="text-align: center;">
+
+      <a href="#all-link" id="all-link">
+        <li id="all-link-color" class="list-inline-item" style="color: rgb(247, 193, 43)">ALL</li>
+      </a>
+      <a href="#latest" id="latest-link">
+        <li id="latest-link-color" class="list-inline-item" style="font-weight: bold; color: black">LATEST</li>
+      </a>
+      <a href="#popular" id="popular-link">
+        <li id="popular-link-color" class="list-inline-item" style="font-weight: bold; color: black">POPULAR
+        </li>
+      </a>
+    </ul>
+  </div>
+
+  <div class="container">
+    <div id="carouselExample4" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active" id="all-link">
+          <div class="card-group">
+            <div class="card">
+              <img src="images/watch.jpg" class="card-img-top" class="d-block w-100" style="height:100%" alt="...">
+              <div class="card-body">
+                <h5 class="card-title" style="color:rgb(247, 193, 43);  text-align: center;">Badminton
+                </h5>
+                <div class="star-rating">
+                  <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                  <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                  <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                  <span id="star" style="color: #ccc;">★</span>
+                  <span id="star" style="color: #ccc;">★</span>
+                </div>
+                <p class="card-text" style="text-align: center;"><small class="text-body-secondary"
+                    style="font-weight:bold;color:black !important">$560.0</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/watch.jpg" class="card-img-top" class="d-block w-100" style="height:100%" alt="...">
+              <div class="card-body">
+                <h5 class="card-title" style="color:rgb(247, 193, 43);  text-align: center;">Badminton
+                </h5>
+                <div class="star-rating">
+                  <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                  <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                  <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                  <span id="star" style="color: #ccc;">★</span>
+                  <span id="star" style="color: #ccc;">★</span>
+                </div>
+                <p class="card-text" style="text-align: center;"><small class="text-body-secondary"
+                    style="font-weight:bold;color:black !important">$560.0</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/watch.jpg" class="card-img-top" class="d-block w-100" style="height:100%" alt="...">
+              <div class="card-body">
+                <h5 class="card-title" style="color:rgb(247, 193, 43);  text-align: center;">Badminton
+                </h5>
+                <div class="star-rating">
+                  <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                  <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                  <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                  <span id="star" style="color: #ccc;">★</span>
+                  <span id="star" style="color: #ccc;">★</span>
+                </div>
+                <p class="card-text" style="text-align: center;"><small class="text-body-secondary"
+                    style="font-weight:bold;color:black !important">$560.0</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item" id="latest-products">
+          <div class="card-group">
+            <div class="card">
+              <img src="images/man.jpg" class="card-img-top" class="d-block w-100" style="height:100%" alt="...">
+              <div class="card-body">
+                <h5 class="card-title" style="color:rgb(247, 193, 43);  text-align: center;">Badminton
+                </h5>
+                <div class="star-rating">
+                  <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                  <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                  <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                  <span id="star" style="color: #ccc;">★</span>
+                  <span id="star" style="color: #ccc;">★</span>
+                </div>
+                <p class="card-text" style="text-align: center;"><small class="text-body-secondary"
+                    style="font-weight:bold;color:black !important">$560.0</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/man.jpg" class="card-img-top" class="d-block w-100" style="height:100%" alt="...">
+              <div class="card-body">
+                <h5 class="card-title" style="color:rgb(247, 193, 43);  text-align: center;">Badminton
+                </h5>
+                <div class="star-rating">
+                  <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                  <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                  <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                  <span id="star" style="color: #ccc;">★</span>
+                  <span id="star" style="color: #ccc;">★</span>
+                </div>
+                <p class="card-text" style="text-align: center;"><small class="text-body-secondary"
+                    style="font-weight:bold;color:black !important">$560.0</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/man.jpg" class="card-img-top" class="d-block w-100" style="height:100%" alt="...">
+              <div class="card-body">
+                <h5 class="card-title" style="color:rgb(247, 193, 43);  text-align: center;">Badminton
+                </h5>
+                <div class="star-rating">
+                  <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                  <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                  <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                  <span id="star" style="color: #ccc;">★</span>
+                  <span id="star" style="color: #ccc;">★</span>
+                </div>
+                <p class="card-text" style="text-align: center;"><small class="text-body-secondary"
+                    style="font-weight:bold;color:black !important">$560.0</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" id="popular-products">
+          <div class="card-group">
+
+            <div class="card">
+              <img src="images/bagpack.jpg" class="card-img-top" class="d-block w-100" style="height:100%" alt="...">
+              <div class="card-body">
+                <h5 class="card-title" style="color:rgb(247, 193, 43);  text-align: center;">Badminton
+                </h5>
+                <div class="star-rating">
+                  <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                  <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                  <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                  <span id="star" style="color: #ccc;">★</span>
+                  <span id="star" style="color: #ccc;">★</span>
+                </div>
+                <p class="card-text" style="text-align: center;"><small class="text-body-secondary"
+                    style="font-weight:bold;color:black !important">$560.0</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/bagpack.jpg" class="card-img-top" class="d-block w-100" style="height:100%" alt="...">
+              <div class="card-body">
+                <h5 class="card-title" style="color:rgb(247, 193, 43);  text-align: center;">Badminton
+                </h5>
+                <div class="star-rating">
+                  <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                  <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                  <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                  <span id="star" style="color: #ccc;">★</span>
+                  <span id="star" style="color: #ccc;">★</span>
+                </div>
+                <p class="card-text" style="text-align: center;"><small class="text-body-secondary"
+                    style="font-weight:bold;color:black !important">$560.0</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/bagpack.jpg" class="card-img-top" class="d-block w-100" style="height:100%" alt="...">
+              <div class="card-body">
+                <h5 class="card-title" style="color:rgb(247, 193, 43);  text-align: center;">Badminton
+                </h5>
+                <div class="star-rating">
+                  <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                  <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                  <span class="selected" id="star" style="color: #f8d64e;">★</span>
+                  <span id="star" style="color: #ccc;">★</span>
+                  <span id="star" style="color: #ccc;">★</span>
+                </div>
+                <p class="card-text" style="text-align: center;"><small class="text-body-secondary"
+                    style="font-weight:bold;color:black !important">$560.0</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample4" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample4" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="row" style="margin-top:30px;">
+      <div class="col" style="padding:0">
+        <img src="images/fitness6.jpg" style="height:100%; width:100%;" class="img-fluid" alt="...">
+      </div>
+      <div class="col" style="padding:0">
+        <div class="row" style="padding:0">
+          <img src="images/fitness4.jpg" style="height:100%; width:100%;" class="img-fluid" alt="...">
+        </div>
+        <div class="row" style="padding:0">
+          <img src="images/fitness5.jpg" style="height:100%; width:100%" class="img-fluid" alt="...">
+        </div>
+      </div>
+      <div class="col" style="padding:0;">
+        <img src="images/fitness7.jpg" style="height:100%; width:100%;margin-right:-300px;" class="img-fluid" alt="...">
+      </div>
+    </div>
+  </div>
+
+  <div class="container" style="margin-top:40px">
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+      <div class="col">
+        <div class="card h-100" style="width:100%; border-color: rgb(204, 82, 82);">
+          <img src="images/delivery.png" style="height:120px; width:120px;margin-left:70px; margin-top:20px"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title" style="font-size:13px; margin-left:20px">FAST DELIVERY</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100" style="width:100%; border-color: rgb(204, 82, 82);">
+          <img src="images/checkout.png" style="height:120px; width:120px;margin-left:70px; margin-top:20px"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title" style="font-size:13px; margin-left:20px">EASY CHECKOUT</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100" style="width:100%; border-color: rgb(204, 82, 82);">
+          <img src="images/return.png" style="height:110px; width:110px;margin-left:70px; margin-top:30px"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title" style="font-size:13px; margin-left:20px">EASY RETURNS & EXCHANGES</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100" style="width:100%; border-color: rgb(204, 82, 82);">
+          <img src="images/international.png" style="height:90px; width:90px;margin-left:70px; margin-top:50px"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title" style="font-size:13px; margin-left:20px">FREE INTERNATIOAL DELIVERY</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card text-bg-dark" style="margin-top: 50px;" id="Contact">
+    <img src="images/fitness1 (2).jpg" class="card-img" alt="...">
+    <div class="card-img-overlay">
+      <div class="row">
+        <div class="col">
+          <h5 class="card-title" style="font-weight: bold;">CATEGORIES</h5>
+          <p class="card-text">
+            <a href="#" class="text-decoration-none" style="color:rgb(247, 193, 43)"> Sports</a><br>
+            <a href="#" class="text-decoration-none" style="color:rgb(247, 193, 43)"> Cycling</a><br>
+            <a href="#" class="text-decoration-none" style="color:rgb(247, 193, 43)"> Fitness</a><br>
+            <a href="#" class="text-decoration-none" style="color:rgb(247, 193, 43)"> Kids</a><br>
+            <a href="#" class="text-decoration-none" style="color:rgb(247, 193, 43)"> Men Shoes</a><br>
+            <a href="#" class="text-decoration-none" style="color:rgb(247, 193, 43)"> Components</a><br>
+            <a href="#" class="text-decoration-none" style="color:rgb(247, 193, 43)"> Boxes</a><br>
+            <a href="#" class="text-decoration-none" style="color:rgb(247, 193, 43)"> Services</a><br>
+            <a href="#" class="text-decoration-none" style="color:rgb(247, 193, 43)"> Desks</a><br>
+            <a href="#" class="text-decoration-none" style="color:rgb(247, 193, 43)"> Cabinets</a>
+
+          </p>
+        </div>
+        <div class="col">
+          <h5 class="card-title" style="font-weight: bold;">ABOUT US</h5>
+          <p class="card-text">
+            <a href="#" class="text-decoration-none" style="color:rgb(247, 193, 43)"> Who We Are</a><br>
+            <a href="#" class="text-decoration-none" style="color:rgb(247, 193, 43)"> Contact Us</a><br>
+            <a href="#" class="text-decoration-none" style="color:rgb(247, 193, 43)"> Sitemap</a><br>
+            <a href="#" class="text-decoration-none" style="color:rgb(247, 193, 43)"> Policies</a><br>
+            <a href="#" class="text-decoration-none" style="color:rgb(247, 193, 43)"> Terms & Conditions</a><br>
+            <a href="#" class="text-decoration-none" style="color:rgb(247, 193, 43)"><img src="images/call.png"
+                style="height:15px; width:15px" class="img-fluid" alt="..."></a><br>
+            <a href="#" class="text-decoration-none" style="color:rgb(247, 193, 43)"><img src="images/email.png"
+                style="height:15px; width:15px" class="img-fluid" alt="..."></a>
+          </p>
+        </div>
+        <div class="col">
+          <h5 class="card-title" style="font-weight: bold;">CUSTOMER SERVICE</h5>
+          <p class="card-text">
+            <a href="#" class="text-decoration-none" style="color:rgb(247, 193, 43)"> FAQ</a><br>
+            <a href="#" class="text-decoration-none" style="color:rgb(247, 193, 43)"> Shipping</a><br>
+            <a href="#" class="text-decoration-none" style="color:rgb(247, 193, 43)"> Cancellation</a><br>
+            <a href="#" class="text-decoration-none" style="color:rgb(247, 193, 43)"> Return</a><br>
+            <a href="#" class="text-decoration-none" style="color:rgb(247, 193, 43)"> Track Order</a><br>
+            <a href="#" class="text-decoration-none" style="color:rgb(247, 193, 43)"> Bulk Order</a>
+          </p>
+        </div>
+        <div class="col">
+          <h5 class="card-title" style="font-weight: bold;">My Company-<p class="card-text"
+              style="color:rgb(247, 193, 43); font-size: 10px;">About Us</p>
+          </h5>
+          <p class="card-text">
+            We are a team of passionate people whose goal is to improve everyone's<br>
+            life through disruptive products.We build <br>great products to solve your business<br>
+            problems.
+          </p>
+          <p class="card-text">
+            Our products are designed for small to<br>medium size companies willing to<br>
+            optimize their performance.
+          </p>
+        </div>
+      </div>
+      <div class="sticky-bottom" style="margin-top: 120px; margin-left:100px">
+        <p class="text-center" style="margin-top:-130px; margin-left:-200px; font-size:15px; font-weight: bold;">
+          SUBSCRIBE FOR NEWSLETTER</p>
+        <p class="text-center" style="margin-top:-20px; margin-left:-200px; font-size:10px">Lorem ipsum is simply a
+          dummy text.</p>
+        <div class="input-group mb-3" style="width:30%; margin-left:250px">
+          <input type="text" class="form-control" placeholder="your email..." aria-label="Username"
+            aria-describedby="basic-addon1">
+          <button class="btn btn-outline-secondary" style="background-color: rgb(247, 193, 43); margin-left:10px"
+            type="button" id="button-addon2" onclick="window.location.href='demo.html'">Subscibe</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+
+    var link1 = document.getElementById('all-link');
+    var link2 = document.getElementById('latest-link');
+    var link3 = document.getElementById('popular-link');
+
+    link1.onclick = function () {
+
+      document.getElementById('latest-link-color').style.color = 'black';
+
+      document.getElementById('popular-link-color').style.color = 'black';
+
+      document.getElementById('all-link-color').style.color = 'rgb(247,193,43)';
+
+
+
+      var carousel = new bootstrap.Carousel(document.getElementById('carouselExample4'));
+      carousel.to(0);
+
+    }
+    link2.onclick = function () {
+
+      var activeItems = document.querySelectorAll('.carousel-item.active');
+      activeItems[activeItems.length - 1].classList.remove('active');
+      document.getElementById('all-link-color').style.color = 'black';
+      document.getElementById('popular-link-color').style.color = 'black';
+
+
+      document.getElementById('latest-products').classList.add('active');
+      document.getElementById('latest-link-color').style.color = 'rgb(247, 193, 43)';
+
+
+
+      var carousel = new bootstrap.Carousel(document.getElementById('carouselExample4'));
+      carousel.to(1);
+
+
+
+
+    }
+    link3.onclick = function () {
+
+      var activeItems = document.querySelectorAll('.carousel-item.active');
+      activeItems[activeItems.length - 1].classList.remove('active');
+      document.getElementById('all-link-color').style.color = 'black';
+
+
+      document.getElementById('latest-products').classList.remove('active');
+      document.getElementById('latest-link-color').style.color = 'black';
+
+      document.getElementById('popular-products').classList.add('active');
+      document.getElementById('popular-link-color').style.color = 'rgb(247, 193, 43)';
+
+
+      var carousel = new bootstrap.Carousel(document.getElementById('carouselExample4'));
+      carousel.to(2);
+
+    }
+
+
+
+
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-K2y/Z1AESLm0Fk3B4n8+aU7kKwXz30G0vaTXW5dYoFI=" crossorigin="anonymous"></script>
+</body>
+
+</html>
